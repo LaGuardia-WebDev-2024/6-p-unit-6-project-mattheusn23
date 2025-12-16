@@ -7,23 +7,29 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
-  strokeWeight(1);
+  fill(367,367,367);
+  strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-
-  ellipse(100,100,125,100); //eyes
+fill(255, 208, 18);
+  ellipse(100,100,125,100);  //eyes
   ellipse(100,100,100,100);
+
+  fill(49, 96, 173);
   ellipse(300,100,140,100);
   ellipse(300,100,100,100);
+
+
   ellipse(100,100,80,80);
   ellipse(300,100,80,80);
+
+  fill(255, 208, 18)
   ellipse(300,100,20,20);
   ellipse(100,100,20,20);
  
 
-
+fill(222, 11, 15)
   line(160,0,160,200); //nose
   line(230,0,230,200);
   line(230,25,160,25);
@@ -36,10 +42,11 @@ void draw(){
   triangle(200,150,138,223,257,227);
 
 
-  
+  fill(46, 222, 11)
   arc(200,300,130,80,radians(0),radians(180)); //lips
   line(265,300,135,300); 
   arc(175,300,80,100,radians(180),radians(360));
+  arc(225,300,80,100,radians(180),radians(360));
 
 
   
